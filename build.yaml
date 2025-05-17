@@ -1,7 +1,7 @@
 include:
   - board: nice_nano_v2
-    shield: neko_left
+    shield: corne_left
   - board: nice_nano_v2
-    shield: neko_right
+    shield: corne_right
   - board: nice_nano_v2
     shield: settings_reset
