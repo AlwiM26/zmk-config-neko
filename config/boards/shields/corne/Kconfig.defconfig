@@ -8,6 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_CORNE_LEFT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
 if SHIELD_CORNE_RIGHT || SHIELD_CORNE_LEFT
 
 config ZMK_SPLIT
