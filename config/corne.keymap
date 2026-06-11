@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <behaviors/battery_percentage_printer.dtsi>
 
 / {
     behaviors {
@@ -131,7 +132,7 @@
 
         Setting-3 {
             bindings = <
-&none  &none  &none  &none  &none  &bt BT_SEL 0    &bt BT_SEL 1  &none  &none  &none  &none  &none
+&none  &bapp  &none  &none  &none  &bt BT_SEL 0    &bt BT_SEL 1  &none  &none  &none  &bapp  &none
 &none  &none  &none  &none  &none  &bt BT_SEL 2    &bt BT_CLR    &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &out OUT_TOG    &none         &none  &none  &none  &none  &none
                      &none  &none  &none           &none         &none  &none
