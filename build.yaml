@@ -1,8 +1,8 @@
 include:
-  - board: nice_nano
+  - board: nice_nano//zm
     shield: corne_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
